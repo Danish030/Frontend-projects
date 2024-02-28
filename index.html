@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="screenbody">
+    <button class="" id="rgb" style="border-radius: 10px; background-color: blueviolet;" onclick="hex()">
+        Danish Ansari
+    </button>
+</body>
+</html>
+
+<script>
+    function hex() {
+  // Select the button
+  const colorButton = document.getElementById("rgb");
+  const screen = document.getElementById("screenbody");
+
+  // Generate a random RGB color for background
+  let r = Math.floor(Math.random() * 256);
+  let g = Math.floor(Math.random() * 256);
+  let b = Math.floor(Math.random() * 256);
+  let rgbColor = `rgb(${r},${g},${b})`;
+  console.log(`rgb(${r},${g},${b})`);
+
+  // Set the button's background color to the generated color
+  colorButton.style.backgroundColor = rgbColor;
+    screen.style.backgroundColor = rgbColor;
+
+  // Set the button's font color to white
+  colorButton.style.color = "white";
+
+  // Set the button's text content to a new string
+  colorButton.textContent = "Color changed!";
+}
+</script>
+</html>
