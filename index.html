@@ -1,28 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <style>
-        body{
-            text-align: center;
-            margin-top: 100px;
+        * {
+            box-sizing: border-box;
         }
-        a{
+
+        body {
+            margin: 0;
+            font-family: system-ui, sans-serif;
+            color: black;
+            background-color: white;
+
+        }
+
+        a {
             text-decoration: none;
             color: rgb(255, 243, 243);
             font-size: 20px;
         }
-        .btn{
-            padding: 10px 20px;
-            background-color: rgb(28, 134, 170);
-            border-radius: 12px;
+
+        .btn {
+            background-color: #fff;
+            padding: 10px 30px;
+            border-radius: 8px;
+            color: #212121;
+            text-decoration: none;
+            border: 2px solid #212121;
+            margin-top: 5px;
+            font-size: 22px;
         }
+
+        .btn:hover{
+            background-color: yellowgreen;
+            color: white;
+            /* border-bottom:solid 2px rgb(207, 104, 104) ; */
+
+        }
+
+        .projectLinks {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
     </style>
-    <h1>Link to My projects</h1>
-    <a class="btn" href="social-links-profile-main/index.html">social-links-profile</a>
+    <div class="projectLinks">
+        <h1>Link to My projects</h1>
+        <a class="btn" href="social-links-profile-main/index.html">social-links-profile</a>
+        <a class="btn" href="qr-code-component/index.html">QR Code component</a>
+    </div>
 </body>
+
 </html>
