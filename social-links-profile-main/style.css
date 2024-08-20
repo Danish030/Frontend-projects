@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+:root {
+    /* Primary */
+    --Green: hsl(75, 94%, 57%);
+    /* Neutral */
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+  }
+
+  body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--Off-Black);
+    color: var(--White);
+    min-height: 1vh;
+    padding: 1.8rem 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container{
+    background-color: var(--Dark-Grey);
+    padding: 1.4rem;
+    margin: auto;
+    height: 28rem;
+    width: 18rem;
+    border-radius: 0.3rem;
+  }
+   .profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+   }
+  .profile_img{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.8rem;
+  }
+.location{
+color: var(--Green);
+font-size: 0.6rem;
+margin-bottom: 1.1rem;
+font-weight: bold;
+}
+
+.job-title{
+    font-size: 0.65rem;
+    margin-bottom: 0.75rem;
+    letter-spacing: 1px;
+}
+.btnCard{
+    display: flex;
+    flex-direction: column;
+
+}
+  .btn{
+    background-color: var(--Grey);
+    color: var(--White);
+    padding: 0.6rem 0.8rem;
+  border: none;
+  border-radius: 0.4rem;
+  margin-bottom: 0.6rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+
+  }
+
+  .btn:hover {
+    background-color: var(--Green);
+    color: var(--Off-Black);
+  }
+  @media only screen and (min-width: 375px) {
+    .container {
+      max-width: 375px;
+    }
+  
+    .job-title {
+      font-size: 0.7rem;
+      letter-spacing: 1px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    body {
+      padding: 3rem 5rem;
+    }
+  
+    .container {
+      height: auto;
+      width: 300px;
+    }
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
