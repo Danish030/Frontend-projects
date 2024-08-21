@@ -1,0 +1,29 @@
+# Frontend Mentor Challenges
+
+Welcome to my Frontend Mentor repository! This repository contains solutions to various Frontend Mentor challenges that I have completed. Each project is built using HTML, CSS, and occasionally JavaScript. These projects helped me improve my front-end skills and gain experience in creating responsive and visually appealing web pages.
+
+## Projects
+
+### 1. Social Links Profile
+- **Description**: A profile card showcasing social media links with a responsive design.
+- **Live Demo**: [View Demo](https://your-live-demo-url.com/social-links-profile)
+- **Code**: [View Code](https://danish030.github.io/Frontend-projects/social-links-profile-main/index.html)
+
+### 2. QR Code Component
+- **Description**: A simple QR code component that directs users to Frontend Mentor's website.
+- **Live Demo**: [View Demo](https://your-live-demo-url.com/qr-code-component/index.html)
+- **Code**: [View Code](https://github.com/your-username/frontend-mentor/tree/main/qr-code-component)
+
+### 3. Blog Preview Card
+- **Description**: A blog preview card showcasing a blog post with an image, title, and author information.
+- **Live Demo**: [View Demo](https://your-live-demo-url.com/blog-preview-card/index.html)
+- **Code**: [View Code](https://github.com/your-username/frontend-mentor/tree/main/blog-preview-card)
+
+## Getting Started
+
+To view any of the projects locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Danish030/Frontend-projects.git
+2.Navigate to this folder and open with vs code.
