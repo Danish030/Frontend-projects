@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Gray: hsl(0, 0%, 42%);
+  --Gray: hsl(0, 0%, 7%);
+  --Black: hsl(0, 0%, 0%);
+
+  --ff-main: "Figtree", sans-serif;
+  --fs-main: 16px;
+  --fw-600: 600;
+  --fw-800: 800;
+}
+
+body {
+  font-family: var(--ff-main);
+  font-size: var(--fs-main);
+  font-weight: var(--fw-600);
+  background-color: var(--Yellow);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.blog-container {
+  width: 100%; /* Ensure the container takes full available width */
+  max-width: 24rem; /* Set a max width for larger screens */
+  background-color: var(--White);
+  padding: 1.5rem;
+  border: 1px solid var(--Gray);
+  border-radius: 1rem;
+  box-shadow: 6px 6px 0 var(--Black);
+  overflow: hidden;
+}
+
+.blog-container > * + * {
+  margin-top: 1rem; /* Adjust the spacing between elements */
+}
+
+.blog-image {
+  border-radius: 0.8rem;
+}
+
+.blog-category {
+  display: inline-block;
+  color: var(--Black);
+  background-color: var(--Yellow);
+  font-weight: var(--fw-800);
+  padding: 0.5rem 0.8rem;
+  border: none;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+}
+
+.blog-date {
+  color: var(--Black);
+  font-size: 14px;
+}
+
+.blog-title {
+  color: var(--Black);
+  font-weight: var(--fw-800);
+  font-size: 1.4rem;
+}
+
+.blog-overview {
+  color: var(--Black);
+  font-size: var(--fs-main);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.author-img {
+  width: 3rem;
+  margin-right: 0.5rem;
+}
+
+.author-name {
+  color: var(--Black);
+  font-size: var(--fs-main);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Mobile-First Styling */
+@media (max-width: 375px) {
+  .blog-container {
+    padding: 1rem; /* Reduce padding for smaller screens */
+  }
+
+  .blog-title {
+    font-size: 1.2rem; /* Slightly reduce title size */
+  }
+
+  .author-img {
+    width: 2.5rem; /* Adjust avatar size */
+  }
+
+  .blog-overview {
+    font-size: 0.9rem; /* Reduce overview text size */
+  }
+}
+
+@media (min-width: 600px) {
+  .blog-container {
+    padding: 2rem; /* Increase padding for larger screens */
+  }
+}
