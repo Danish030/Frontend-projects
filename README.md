@@ -6,18 +6,18 @@ Welcome to my Frontend Mentor repository! This repository contains solutions to 
 
 ### 1. Social Links Profile
 - **Description**: A profile card showcasing social media links with a responsive design.
-- **Live Demo**: [View Demo](https://your-live-demo-url.com/social-links-profile)
-- **Code**: [View Code](https://danish030.github.io/Frontend-projects/social-links-profile-main/index.html)
+- **Live Demo**: [View Demo] (https://danish030.github.io/Frontend-projects/social-links-profile-main/index.html)
+- **Code**: [View Code](https://danish030.github/Frontend-projects/social-links-profile-main/index.html)
 
 ### 2. QR Code Component
 - **Description**: A simple QR code component that directs users to Frontend Mentor's website.
-- **Live Demo**: [View Demo](https://your-live-demo-url.com/qr-code-component/index.html)
-- **Code**: [View Code](https://github.com/your-username/frontend-mentor/tree/main/qr-code-component)
+- **Live Demo**: [View Demo](https://danish030.github.io/Frontend-projects/qr-code-component/index.html)
+- **Code**: [View Code] (https://danish030.github.io/Frontend-projects/qr-code-component)
 
 ### 3. Blog Preview Card
 - **Description**: A blog preview card showcasing a blog post with an image, title, and author information.
-- **Live Demo**: [View Demo](https://your-live-demo-url.com/blog-preview-card/index.html)
-- **Code**: [View Code](https://github.com/your-username/frontend-mentor/tree/main/blog-preview-card)
+- **Live Demo**: [View Demo](https://danish030.github.io/Frontend-projects/blog-preview-card-main/index.html)
+- **Code**: [View Code](https://danish030.github/Frontend-projects/blog-preview-card-main)
 
 ## Getting Started
 
