@@ -19,6 +19,11 @@ Welcome to my Frontend Mentor repository! This repository contains solutions to 
 - **Live Demo**: [View Demo](https://danish030.github.io/Frontend-projects/blog-preview-card-main/index.html)
 - **Code**: [View Code](https://github.com/Danish030/Frontend-projects/tree/master/blog-preview-card-main)
 
+### 4. Recipe page
+- **Description**: A blog preview card showcasing a blog post with an image, title, and author information.
+- **Live Demo**: [View Demo](https://danish030.github.io/Frontend-projects/recipe-page-main/index.html)
+- **Code**: [View Code](https://github.com/Danish030/Frontend-projects/tree/master/recipe-page-main)
+
 ## Getting Started
 
 To view any of the projects locally, follow these steps:
