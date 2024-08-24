@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    5. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    6. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    7. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    8. Create a root stacking context
+  */
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+}
+  #root, #__next {
+    isolation: isolate;
+  }
+
+@font-face {
+    font-family: "Montserrat" ;
+    src: url(https://fonts.google.com/specimen/Montserrat);
+}
+
+@font-face {
+    font-family: "Fraunces" ;
+    src: url(https://fonts.google.com/specimen/Fraunces);
+}
+
+:root {
+    /* Primary */
+    --clr-Primary: hsl(158, 36%, 37%);
+    --clr-Dark: hsl(158, 36%, 20%);
+    --clr-secondary: hsl(30, 38%, 92%);
+    /* Neutral */
+    --clr-blue-900: hsl(212, 21%, 14%);
+    --clr-blue-400: hsl(228, 12%, 48%);
+    --clr-White-100: hsl(0, 0%, 100%);
+    /* Fonts */
+    --ff-main: "Montserrat";
+    --ff-secondary: "Fraunces";
+    --fw-regular: 500;
+    --fw-bold: 700;
+    --fs-paragraph: 14px;
+}
+
+body{
+   font-family: var(--ff-main);
+   font-weight: var(--fw-regular);
+   color: var(--clr-blue-400);
+   font-size: 0.875rem;
+   background-color: var(--clr-secondary);
+   display: grid;
+   place-items: center;
+   margin: 1rem;
+   min-height: 100vh;
+}
+
+.container{
+    display: grid;
+    background-color: var(--clr-White-100);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    max-width: 600px;
+}
+
+@media (min-width:600px){
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .product_content{
+        padding: 2rem;
+    }
+    
+}
+
+.product_content{
+    display: grid;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
+.perfume{
+    font-size: 0.8125rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+
+.perfume-name{
+    font-size: 2rem;
+    color: var(--clr-blue-900);
+}
+
+.price{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+.offer-price{
+    font-family: var(--ff-secondary);
+color: var(--clr-Primary);
+font-size: 2rem;
+}
+.actual-price{
+text-decoration: line-through;
+}
+
+.btn-cart{
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--ff-main);
+    font-weight: var(--fw-bold);
+    font-size: 0.925rem;
+    background-color: var(--clr-Primary);
+    color: var(--clr-White-100);
+    border: 0;
+    gap: 0.5rem;
+    padding: 0.75em 1.5em;
+    border-radius: 0.225rem;
+}
+
+.btn-cart[data-icon="shopping-cart"]::before{
+    content: "";
+    background-image: url(images/icon-cart.svg);
+    width: 15px;
+    height: 16px;
+
+}
+.btn-cart:is(:hover,:focus){
+    background-color:var(--clr-Dark) ;
+}

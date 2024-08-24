@@ -20,9 +20,14 @@ Welcome to my Frontend Mentor repository! This repository contains solutions to 
 - **Code**: [View Code](https://github.com/Danish030/Frontend-projects/tree/master/blog-preview-card-main)
 
 ### 4. Recipe page
-- **Description**: A blog preview card showcasing a blog post with an image, title, and author information.
+- **Description**: A  preview card showcasing about food recipe.
 - **Live Demo**: [View Demo](https://danish030.github.io/Frontend-projects/recipe-page-main/index.html)
 - **Code**: [View Code](https://github.com/Danish030/Frontend-projects/tree/master/recipe-page-main)
+
+### 5. Recipe page
+- **Description**: A Responsive product card 
+- **Live Demo**: [View Demo](https://danish030.github.io/Frontend-projects/product-preview-card-component-main/index.html)
+- **Code**: [View Code](https://github.com/Danish030/Frontend-projects/tree/master/product-preview-card-component-main)
 
 ## Getting Started
 
