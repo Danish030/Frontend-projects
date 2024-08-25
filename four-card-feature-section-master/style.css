@@ -1,0 +1,165 @@
+/* font-family */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  /* Primary */
+  --border-primary-red: hsl(0, 78%, 62%);
+  --border-primary-cyan: hsl(180, 62%, 55%);
+  --border-primary-orange: hsl(34, 97%, 64%);
+  --border-primary-blue: hsl(212, 86%, 64%);
+
+  /* Neutral */
+
+  --clr-neutral-900: hsl(234, 12%, 34%);
+  --clr-neutral-400: hsl(229, 6%, 66%);
+  --clr-neutral-100: hsl(0, 0%, 98%);
+  --ff-poppins: "Poppins";
+  --fw-light:200;
+  --fw-normal:400;
+  --fw-bold:700;
+  --fs-400: 0.9275rem;
+  --fs-500:1.25rem;
+  --fs-600:1.625rem;
+  --fs-900:2.5rem;
+}
+/* Your additional CSS code here */
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: var(--ff-poppins);
+  font-weight: var(--fs-600);
+}
+body {
+  line-height: 1.5;
+  padding-block-end: 5rem;
+  -webkit-font-smoothing: antialiased;
+ 
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--clr-neutral-900);
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* main-styles */
+.wrapper-head{
+  margin-inline:auto ;
+  max-width: 540px;
+}
+
+.wrapper-card{
+  padding-inline: 2rem;
+  max-width: 1170px;
+  margin-inline: auto;
+}
+
+header{
+  text-align: center;
+  margin-block: 6rem;
+}
+.title{
+  font-size: var(--fs-900);
+  font-weight: var(--fw-normal);
+  
+}
+h1{
+  margin: 0;
+  font-size: var(--fs-400);
+}
+p{
+  font-size: var(--fs-400);
+  font-weight: var(--fw-normal);
+  color: var(--clr-neutral-400);
+}
+
+.layout-card{
+  --gap: 1.75rem;
+  display: flex;
+  gap: var(--gap)
+}
+
+.layout-card > * {
+  flex: 1;
+}
+
+.col{
+  display: grid;
+  place-items: center;
+ gap: var(--gap);
+}
+
+.card{
+  padding: 1.5rem;
+  border-top: 0.25rem solid;
+  border-radius: 0.25rem;
+  box-shadow: 0 1rem 1.5rem -0.5rem rgb(0 50 100 /0.1) ;
+}
+
+.border-cyan{
+  border-color: var(--border-primary-cyan);
+}
+.border-red{
+  border-color: var(--border-primary-red);
+}
+.border-orange{
+  border-color: var(--border-primary-orange);
+}
+.border-blue{
+  border-color: var(--border-primary-blue);
+}
+
+.card_title{
+font-size: var(--fs-600);
+margin: 0;
+}
+
+.card_img{
+  
+  margin-top: 1.75rem;
+  margin-left: auto; 
+  /* it works if image is display block */
+}
