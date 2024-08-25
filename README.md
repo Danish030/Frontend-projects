@@ -24,10 +24,15 @@ Welcome to my Frontend Mentor repository! This repository contains solutions to 
 - **Live Demo**: [View Demo](https://danish030.github.io/Frontend-projects/recipe-page-main/index.html)
 - **Code**: [View Code](https://github.com/Danish030/Frontend-projects/tree/master/recipe-page-main)
 
-### 5. Recipe page
+### 5. A Product card
 - **Description**: A Responsive product card 
 - **Live Demo**: [View Demo](https://danish030.github.io/Frontend-projects/product-preview-card-component-main/index.html)
 - **Code**: [View Code](https://github.com/Danish030/Frontend-projects/tree/master/product-preview-card-component-main)
+
+### 5. Four Card section
+- **Description**: Four Card section
+- **Live Demo**: [View Demo](https://danish030.github.io/Frontend-projects/four-card-feature-section-master/index.html)
+- **Code**: [View Code](https://github.com/Danish030/Frontend-projects/tree/master/four-card-feature-section-master)
 
 ## Getting Started
 
