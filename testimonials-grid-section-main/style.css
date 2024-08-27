@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  border-radius: 50%;
+  width: 16%;
+  outline: 2px solid var(--white);
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+:root {
+  /* Primary */
+  --moderate-violet: hsl(263, 55%, 52%);
+  --very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+  /* Neutral */
+  --light-gray: hsl(0, 0%, 81%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+  --ff-main: "Barlow Semi Condensed", sans-serif;
+  --fs-main: 13px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: var(--ff-main);
+  background-color: var(--light-grayish-blue);
+}
+.content-container {
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  gap: 2rem;
+}
+
+.grid-item {
+  padding: 2.15rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.grid-item:nth-child(1) {
+  background-color: var(--moderate-violet);
+  background-image: url("/images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top 10px right 30px;
+  color: #fff;
+}
+.grid-item:nth-child(2) {
+  background-color: var(--very-dark-grayish-blue);
+  color: #fff;
+}
+.grid-item:nth-child(3) {
+  background-color: var(--white);
+    color: #fff;
+}
+.grid-item:nth-child(3) p {
+ color: var(--light-grayish-blue);
+ opacity: 12;
+}
+
+.user {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.testimonial-title {
+  color: var(--light-gray);
+}
+
+.testimonial-summary {
+  padding-top: 1.5rem;
+}
+
+p {
+  font-size: var(--fs-main);
+  font-weight: 400;
+  color: var(--light-grayish-blue);
+  opacity: 50%;
+}
