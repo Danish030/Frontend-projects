@@ -34,6 +34,11 @@ Welcome to my Frontend Mentor repository! This repository contains solutions to 
 - **Live Demo**: [View Demo](https://danish030.github.io/Frontend-projects/four-card-feature-section-master/index.html)
 - **Code**: [View Code](https://github.com/Danish030/Frontend-projects/tree/master/four-card-feature-section-master)
 
+### 6. Testimonials-Grid-Section
+- **Description**: Testimonials-Grid-Section
+- **Live Demo**: [View Demo](https://danish030.github.io/Frontend-projects/testimonials-grid-section-main/index.html)
+- **Code**: [View Code](https://github.com/Danish030/Frontend-projects/tree/master/testimonials-grid-section-main)
+
 ## Getting Started
 
 To view any of the projects locally, follow these steps:
